@@ -9,7 +9,7 @@ test("displays the text 'please pass this test'", () => {
   function Article(props) {
     return <h1>please pass this test</h1>
   }
-  screen.debug();
+  // screen.debug();
 
   expect(screen.queryByText("please pass this test")).toBeInTheDocument();
 });
